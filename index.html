@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Static Resume Builder by Aroofa Allauddin
+    </h1>
+    <form id="resumeform">
+        <fieldset>
+            <legend><big><b>Personal Information</b></big></legend>
+            <label for="name"> First Name:</label>
+            <input type="text" placeholder="Enter First Name" id="name" name="name" required><br><br>
+
+            <label for="name"> Last Name:</label>
+            <input type="text" placeholder="Enter Last Name" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enterv Your Email Address" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" placeholder="Enter Your Phone Number" id="phone" name="phone" required><br><br>
+
+            <label for="name"> Country:</label>
+            <input type="text" placeholder="Enter your Country" id="name" name="name" required><br><br>
+
+            <label for="name"> City:</label>
+            <input type="text" placeholder="Enter your City" id="name" name="name" required><br><br>
+
+            <label for="name"> Nationality:</label>
+            <input type="text" placeholder="Enter Nationality" id="name" name="name" required><br><br>
+
+            <label for="name"> Date of Birth:</label>
+            <input type="text" placeholder="Enter your DOB" id="name" name="name" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend><big><b>Education</b></big></legend>
+            <label for="education">School or college:</label>
+            <input type="text" placeholder="Enter your School Name" id="name" name="name" required><br><br>
+
+            <label for="education">Degree:</label>
+            <input type="text" placeholder="Enter your Degree" id="name" name="name" required><br><br>
+
+            <label for="description">Description:</label>
+            <textarea placeholder="Here you tell about yourself what you Learn." id="description" name="description" rows="4" required></textarea><br>
+
+
+        </fieldset>
+        
+        <fieldset>
+            <legend><b><big>Experience</big></b></legend>
+            <label for="position or Role">Psition or Role:</label>
+            <input type="text" placeholder="Job Title" id="position" name="position"required></input><br><br>
+            
+            <label for="Company name">Company name:</label>
+            <input type="text" placeholder="Enter Your Company Name" id="Company" name="Company"required></input><br><br>
+
+            <label for="description">Description:</label>
+            <textarea placeholder="Here you tell about yourself what you did." id="description" name="description" rows="4" required></textarea><br>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b><big>Skills</big></b></legend>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" required></textarea><br>
+
+        </fieldset>
+
+        <button type="submit"> Generate Resume</button>
+        </form>
+
+</body>
+</html>
